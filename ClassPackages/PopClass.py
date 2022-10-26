@@ -1,6 +1,6 @@
 '''
 Name: Alex Bridge, Jon Buck, Grace Hertzfeld, Aria Nielsen
-email: ____, ____, hertzfgc@mail.uc.edu, _____# everyone put their email
+email: nielseai@mail.uc.edu, ____, hertzfgc@mail.uc.edu, _____# everyone put their email
 Assignment: Assignment 09
 Course: IS 4010
 Semester/Year: Fall 2022
@@ -15,11 +15,10 @@ class Pop():
         if brand in brands:
             self.brand = brand
         else:
-            print("This is not a pop brand")
+            print("This is not a pop brand: " + brand)
     def __init__(self, brand, name):    
         self.brand = brand
         self.name = name              
-        self.validateBrand(brand)
     def __repr__(self):
         return "brand = " + self.brand + "; name = " + self.name
     def __str__(self):

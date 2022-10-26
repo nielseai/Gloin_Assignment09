@@ -1,6 +1,6 @@
 '''
 Name: Alex Bridge, Jon Buck, Grace Hertzfeld, Aria Nielsen
-email: ____, ____, hertzfgc@mail.uc.edu, _____# everyone put their email
+email: nielseai@mail.uc.edu, ____, hertzfgc@mail.uc.edu, _____# everyone put their email
 Assignment: Assignment 09
 Course: IS 4010
 Semester/Year: Fall 2022
@@ -29,13 +29,14 @@ class Coffee:
     
     def __init__(self, orderNumber, degree):
         self.orderNumber = orderNumber
-        self.degree(degree)
+        self.degree = degree
         
     def __repr__(self):
         'Return a string repr of coffee'
         return 'Order Number: ' + self.orderNumber
 
     def __str__(self):
+        
         'Return an improved string of coffee'
-        return 'OrderNumber: ' + self.orderNumber + ', ' + 'Coffee Temperature: ' + str(self.degree)
+        return 'OrderNumber: ' + str(self.orderNumber) + ', ' + 'Coffee Temperature: ' + str(self.degree)
     
