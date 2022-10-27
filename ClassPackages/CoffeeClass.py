@@ -1,6 +1,6 @@
 '''
 Name: Alex Bridge, Jon Buck, Grace Hertzfeld, Aria Nielsen
-email: nielseai@mail.uc.edu, ____, hertzfgc@mail.uc.edu, _____# everyone put their email
+email:  bridgeax@mail.uc.edu, buckjn@mail.uc.edu, hertzfgc@mail.uc.edu, nielseai@mail.uc.edu
 Assignment: Assignment 09
 Course: IS 4010
 Semester/Year: Fall 2022
