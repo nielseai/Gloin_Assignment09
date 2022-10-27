@@ -10,7 +10,7 @@ Anything else that's relevant:
 '''
 
 class DrinkMixer():
-    #set variables and check against "inventory"
+    #set variables and check against "inventory list"
     def setDrinks(self,inputOne,inputTwo):
         self.checkDrinks(inputOne,inputTwo)
     
